@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+imgprocproj/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+*.h5
+*.hdf5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.pkl
+
+# Datasets
+data/
+dataset/
+datasets/
+
+# Images
+*.tif
+*.tiff
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# VS Code
+.vscode/

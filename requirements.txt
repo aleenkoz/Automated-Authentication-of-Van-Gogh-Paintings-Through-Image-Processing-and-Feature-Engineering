@@ -1,0 +1,20 @@
+# Automated Authentication of Van Gogh Paintings (ARTI 403, Group 3)
+# Requires Python 3.9 or newer (the notebook uses str.removeprefix).
+#
+# These are minimum versions. scikit-learn >= 1.2 is needed for
+# HistGradientBoostingClassifier(class_weight=...), and scikit-image >= 0.19 for graycomatrix / graycoprops.
+# To record the exact versions you ran, use:  pip freeze > requirements-lock.txt
+
+numpy>=1.23
+pandas>=1.5
+opencv-python>=4.5
+scikit-image>=0.19
+scikit-learn>=1.2
+matplotlib>=3.5
+seaborn>=0.12
+Pillow>=9.0
+joblib>=1.1
+
+# Running the notebook
+jupyter>=1.0
+ipykernel>=6.0
